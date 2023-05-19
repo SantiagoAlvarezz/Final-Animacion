@@ -709,6 +709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963521187}
   - component: {fileID: 963521186}
+  - component: {fileID: 963521188}
   m_Layer: 0
   m_Name: Rig 1
   m_TagString: Untagged
@@ -728,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70b342d8ce5c2fd48b8fa3147d48d1d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Weight: 1
+  m_Weight: 0
   m_Effectors:
   - m_Transform: {fileID: 886581620}
     m_Style:
@@ -754,6 +755,18 @@ Transform:
   m_Father: {fileID: 672819536}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963521188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963521185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56391a23c7d9ce84c8d66b81aa8c1cbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &967002763 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400092, guid: 68ff77d4e131db34586dc6f268e92dca, type: 3}
